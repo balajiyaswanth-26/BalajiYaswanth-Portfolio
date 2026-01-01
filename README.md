@@ -7,15 +7,14 @@ It highlights projects, skills, and technologies I specialize in, including **Re
 
 ## Live Demo
 
-**URL:** [https://lovable.dev/projects/9eedceaa-5b37-4d42-93e2-c58291b62992](https://lovable.dev/projects/9eedceaa-5b37-4d42-93e2-c58291b62992)
+**URL:** https://byant-portfolio.vercel.app/
 
 ## Tech Stack
 
 This project is built with:
 
-- **Frontend:** React, Angular, TypeScript  
-- **UI / Styling:** Tailwind CSS, shadcn-ui  
-- **Backend:** .NET Core  
+- **Frontend:** React, TypeScript
+- **UI / Styling:** Tailwind CSS, shadcn-ui
 - **Build Tool:** Vite  
 
 ## Getting Started (Local Development)

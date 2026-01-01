@@ -16,7 +16,7 @@ const Contact = ({ id }: { id?: string }) => {
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState("");
 
-  // 🔹 EMAILJS CONFIG (PUT YOUR REAL IDS HERE)
+  // EMAILJS CONFIG
   const SERVICE_ID = "service_ltfptza";
   const PUBLIC_KEY = "sKT-fYqZDotrt4Jl7";
   const TEMPLATE_ID = "template_v6hajq4";
