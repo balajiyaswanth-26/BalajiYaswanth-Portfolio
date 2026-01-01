@@ -1,12 +1,20 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download } from "lucide-react";
 import profileImage from "@/assets/profile.jpg";
+import resume from "@/assets/BalajiYaswanth-Resume.pdf";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     element?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resume;
+    link.download = "Balaji_Yaswanth_B_Resume.pdf";
+    link.click();
+  }
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-20 pt-32 relative overflow-hidden">
@@ -53,6 +61,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 variant="secondary"
+                onClick={handleDownload}
               >
                 <Download className="mr-2 h-4 w-4" />
                 Resume
